@@ -22,8 +22,8 @@ export default function CreditCardForm() {
             />
           </div>
           <Form onSubmit={handleSubmit}>
-<Form.Group>
-<Form.Label  style={{ fontSize: 12 }}>Card Number</Form.Label>
+            <Form.Group>
+              <Form.Label  style={{ fontSize: 12 }}>Card Number</Form.Label>
               <Form.Control
                 type="number"
                 id="number"
@@ -36,7 +36,7 @@ export default function CreditCardForm() {
               />
             </Form.Group>
             <Form.Group>
-<Form.Label style={{ fontSize: 12 }}>Card Name</Form.Label>
+              <Form.Label style={{ fontSize: 12 }}>Card Name</Form.Label>
               <Form.Control
                 type="text"
                 id="name"
@@ -52,7 +52,7 @@ export default function CreditCardForm() {
             <Row>
               <Col>
                 <Form.Group>
-<Form.Label style={{ fontSize: 12 }}>Expiration Date</Form.Label>
+                  <Form.Label style={{ fontSize: 12 }}>Expiration Date</Form.Label>
                   <Form.Control
                     type="text"
                     id="expiration"
@@ -69,7 +69,7 @@ export default function CreditCardForm() {
             <Row>
               <Col>
                 <Form.Group>
-<Form.Label style={{ fontSize: 12 }}>CVV</Form.Label>
+                  <Form.Label style={{ fontSize: 12 }}>CVV</Form.Label>
                   <Form.Control
                     type="number"
                     id="cvc"
@@ -83,7 +83,7 @@ export default function CreditCardForm() {
                 </Form.Group>
               </Col>
 						</Row>
-<div className="d-grid gap-2">
+            <div className="d-grid gap-2">
 						 <Button
               size={"block"}
               id="validateButton"
@@ -91,7 +91,7 @@ export default function CreditCardForm() {
             >
               Validate
             </Button>
-</div>
+          </div>
           </Form>
           </div>
           <Alert
